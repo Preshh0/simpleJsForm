@@ -1,0 +1,22 @@
+body{
+    background: plum;
+    margin: 40px auto;
+}
+
+fieldset{
+    margin:auto;
+    max-width: 300px;
+    padding:auto 50px;
+    border: 3px dotted teal;
+    width: 100%;
+}
+
+.inputFields{
+    border:2px solid maroon;
+    margin: 10px 0px;
+}
+
+button{
+    margin: 10px 0px;
+    border-radius: 5px;
+}

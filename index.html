@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
-    <form action="" name="myForm" onsubmit="return validate()">
-        Username: <br>
-        <input type="text" name="username" id="username">
-        <br>
-        Email: <br>
-        <input type="email" name="email" id="email">
-        <br>
-        Please click where appropriate: <br>
-        Male
-        <input type="radio" value="Male" class="checkbox">
+    <fieldset>
+        <h2>User Info</h2>
+        <form action="" name="myForm" onsubmit="return validate()">
+            Username: <br>
+            <input type="text" name="username" id="username" class="inputFields">
+            <br>
+            Email: <br>
+            <input type="email" name="email" id="email" class="inputFields">
+            <br>
+            Please click where appropriate: <br>
+            Male
+            <input type="radio" value="Male" class="checkbox">
 
-        Female
-        <input type="radio"  value="Female" class="checkbox">
-        <br>
-        <button type="submit"> Click to Submit </button>
-    </form>
+            Female
+            <input type="radio"  value="Female" class="checkbox">
+            <br>
+            <button> Click to Submit </button>
+        </form>
+
+    </fieldset>
+
 
     <script src="js/script.js"></script>
 </body>
